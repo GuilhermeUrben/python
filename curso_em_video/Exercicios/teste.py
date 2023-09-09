@@ -1,0 +1,1 @@
+real = int(input('Digite um Real: '))

@@ -1,0 +1,11 @@
+import random
+n = input('Digite o primeiro nome: ')
+n1 = input('Digite o segundo nome: ')
+n2 = input('Digite o terceiro nome: ')
+n3 = input('Digite o quarto nome: ')
+lista = (n, n1, n2, n3)
+print('Os nomes escolhidos foram {}'.format(lista))
+print('Será feito um sorteio automático entre eles, para saber qual a ordem de apresentação')
+sorteio = random.sample(lista,4)
+print('A ordem de apresentação sera: ')
+print(sorteio)

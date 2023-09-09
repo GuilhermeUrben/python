@@ -1,0 +1,10 @@
+import random
+n = input('Digite o primeiro nome: ')
+n1 = input('Digite o segundo nome: ')
+n2 = input('Digite o terceiro nome: ')
+n3 = input('Digite o quarto nome: ')
+lista = (n, n1, n2, n3)
+print('Os nomes escolhidos foram {}, {}, {}, e {}'.format(n, n1, n2, n3))
+print('Será feito um sorteio automático entre eles, para saber quem vai apagar o quadro')
+sorteio = random.choice(lista)
+print('Quem apagará o quadro, será: {}'.format(sorteio))

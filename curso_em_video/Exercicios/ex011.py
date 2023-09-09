@@ -1,0 +1,6 @@
+H = float(input('Qual a altura da parede? '))
+L = float(input('Qual a largura da parede? '))
+a = (H*L)
+print('A parede tem {} metros de altura e {} metros de largura'.format(H, L))
+print('Sendo assim, a parede tem {} m²'.format(H*L))
+print('Então serão precisos {} Litros de tinta para pintar a parede'.format(a/2))
